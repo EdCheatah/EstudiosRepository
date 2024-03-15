@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main4 {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner lector = new Scanner(new File("Ejercicio4"));
-
+        System.out.println("");
         while(lector.hasNext())
         {
             int suma = 0;
